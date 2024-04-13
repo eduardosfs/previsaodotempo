@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://lncimg.lance.com.br/cdn-cgi/image/width=1214,height=560,quality=75,format=webp/uploads/2023/03/21/6419f1fe905a2.jpeg");
+    background-size: cover;
+
+}
+
+.caixa-maior {
+    background: #000000;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;
+    width: 95%;
+    max-width: 400px;
+}
+
+.input-cidade {
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: #ffffff;
+    width: calc(100% - 70px);
+
+}
+
+.botao-busca {
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    float: right;
+}
+
+
+.img-busca {
+    width: 50px;
+
+}
+
+.img-busca:hover {
+    transform: scale(1.5);
+}
+
+.cidade {
+    color: #ffffff;
+    padding: 10px;
+    font-weight: 300;
+    
+
+}
+
+
+.caixa-menor {
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+.temp {
+    color: #ffffff;
+    padding: 10px;
+}
+
+
+.texto-previsao {
+    color: #ffffff;
+    margin-left: 10px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.umidade {
+    color: #ffffff;
+    padding: 15px;
+    font-weight: 300;
+}
+
+.nba {
+    width: 80px;
+
+
+
+
+}
+
+.du {
+    color: gray;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+}
